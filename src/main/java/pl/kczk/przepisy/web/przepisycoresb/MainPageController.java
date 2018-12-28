@@ -60,6 +60,10 @@ public class MainPageController {
                         .build()
                 )
                 .build()));
-        commonService.saveRecipe(Recipe.builder().recipeToIngredients(recipeToIngredientList).build());
+        commonService.saveRecipe(Recipe
+                        .builder()
+                        .recipeToIngredients(recipeToIngredientList)
+                        .name("potrawka z królika")
+                        .build());
     }
 }

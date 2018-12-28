@@ -24,4 +24,6 @@ public class Recipe {
 
     @OneToMany
     private List<RecipeToIngredient> recipeToIngredients;
+
+    private String name;
 }
