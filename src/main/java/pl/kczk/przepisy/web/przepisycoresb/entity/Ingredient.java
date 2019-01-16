@@ -15,6 +15,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Builder
 public class Ingredient {
+	
     @Id
     @GeneratedValue
     private Long id;

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" th:href="@{/css/style.css}"
+	href="../../css/style.css" />
+</head>
+<body>
+    <main>
+    	<aside class="sidebar">
+    		<figure class="logo">
+    			<a href="mock"><img src="../../img/logo.png"></a>
+    		</figure>
+    		<ul class="category">
+    			<li><a href="#">Śniadanie</a></li>
+    			<li><a href="#">Obiad</a></li>
+    			<li><a href="#">Kolacja</a></li>
+    			<li><a href="#">Desery</a></li>
+    		</ul>
+    	</aside>
+    	<article class="content">
+    	<header>
+    		<form id="search">
+    			<div class="input-wrap--home-recipe">
+    			<span class="search"></span>
+    				<input type="text" placeholder="Znajdz przepis">
+    			</div>
+    			<div class="input-wrap--home-ingredients">
+    				<div class="input-wrap">
+    					<input type="text" placeholder="Dodaj produkt">  
+    				</div>
+    				<div class="btn-wrap">
+    					<a href="#" class="btn-include-small"><span>+</span></a>
+    				</div>
+    			</div>			
+    			<input class="btn-search" type="button" value="SZUKAJ">
+
+    		</form>
+    	</header>	
+    		 <div class="grid-ingredients">
+    		 	<div class="hold-ingredients">
+	    			<div class="recipe-info-image">
+		    		 	<div class="recipe-info">
+							<h1>CIASTO WŁOSKIE</h1>
+							<p>"Ciastko z mąki i cukru i jajek i z czegoś"</p>   
+						</div>
+						<div class="img-info">
+							<img class="cell-recipe-img" src="../../img/cake.jpg"> 
+							<p><span><img src="../../img/clock.png"></span>40 minut</p>
+							<p><span><img src="../../img/level.png"></span>Łatwe</p>
+							<p><span><img src="../../img/man-user.png"></span>4 osoby</p>
+						</div>		 
+	    		 	</div>
+					<div class="how-to">
+						<div class="ingredients">
+							<h2>Składniki</h2>
+							<ul>
+								<li>1 3/4 szklanki mąki</li>
+								<li>2 szklanki cukru</li>
+								<li>3/4 szklanki kakao</li>
+								<li>1 łyżeczeka proszuku do pieczenia</li>
+								<li>1 łyżeczka soli</li>
+								<li>1 3/4 szklanki mąki</li>
+								<li>2 sszklanki cukru</li>
+								<li>3/4 szklanki kakao</li>
+								<li>1 łyżeczeka proszuku do pieczenia</li>
+								<li>1 łyżeczka soli</li>
+							</ul>
+						</div>
+						<div class="directions">
+							<h2>Przygotowanie</h2>
+							<ul>
+								<li>Rozgrzej piekarnik na 175 stopni. bla bla bla</li>
+								<li>Lorem ipsum bla bla </li>
+								<li>Lorem ipsum bla bla </li>
+								<li>Lorem ipsum bla bla </li>
+							</ul>
+						</div>
+					</div>				
+				</div>            	         	
+             </div>	
+    	</article>
+    </main>
+</body>
+</html>

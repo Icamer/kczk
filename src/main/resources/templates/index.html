@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" th:href="@{/css/style.css}"
+	href="../../css/style.css" />
+</head>
+<body>
+    <main>
+    	<aside class="sidebar">
+    		<figure class="logo">
+    			<a href="mock"><img src="../../img/logo.png"></a>
+    		</figure>
+    		<ul class="category">
+    			<li><a href="#">Śniadanie</a></li>
+    			<li><a href="#">Obiad</a></li>
+    			<li><a href="#">Kolacja</a></li>
+    			<li><a href="#">Desery</a></li>
+    		</ul>
+    	</aside>
+    	<article class="content">
+    	<header>
+    		<form id="search">
+    			<div class="input-wrap--home-recipe">
+    			<span class="search"></span>
+    				<input type="text" placeholder="Znajdz przepis">
+    			</div>
+    			<div class="input-wrap--home-ingredients">
+    				<div class="input-wrap">
+    					<input type="text" placeholder="Dodaj produkt">  
+    				</div>
+    				<div class="btn-wrap">
+    					<a href="#" class="btn-include-small"><span>+</span></a>
+    				</div>
+    			</div>			
+    			<input class="btn-search" type="button" value="SZUKAJ">
+
+    		</form>
+    	</header>	
+    		 <div class="grid">
+  
+             	<div class="cell">
+             	  	<a href="recipe">
+             	    <img class="cell-recipe-img" src="../../img/cake.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Ciasto włoskie</h3>
+             			<p>Ciastko z mąki i cukru i jajek i z czegoś</p>
+             		</div>
+             		</a>
+             	</div>
+		
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cake1.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Ciasto z ciepłego mleka</h3>
+             			<p>Ciastko z mąki i cukru i jajek i z czegoś</p>
+             		</div>
+             		</a>
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cake2.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Tęczowe ciasto</h3>
+             			<p>Ciastko z mąki i cukru i jajek i z miłości</p>
+             		</div>        	
+             		</a>
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cake3.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Murzynek</h3>
+             			<p>Ciastko z mąki i cukru i jajek i z miłości i z kakao</p>
+             		</div> 
+             		</a>              	
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/pancake.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Mięciutkie naleśniki</h3>
+             			<p>Super mięciutkie naleśniczki z skłądnikami </p>
+             		</div>
+             		</a>
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cookies.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Ciasteczka z M&M's</h3>
+             			<p>Pyszne chrupiące ciasteczka z M&M's </p>
+             		</div>
+             		</a>
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cookies2.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Ciasteczka bez cukru</h3>
+             			<p>Pyszne chrupiące ciasteczka bez cukru </p>
+             		</div> 
+             		</a>            	
+             	</div>
+             	<div class="cell">
+             		<a href="recipe">
+             		<img class="cell-recipe-img" src="../../img/cheesecake.jpg">
+             		<div class="cell-recipe-info">
+             			<h3>Sernik bez rodzynek</h3>
+             			<p>Bardzo dobry sernik bez rodzynek</p>
+             		</div>  
+             		</a>	
+             	</div> 
+             	           	         	
+             </div>	
+             </div>
+    	</article>
+    </main>
+</body>
+</html>
